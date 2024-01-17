@@ -1,0 +1,145 @@
+html{
+    display: block;
+}
+.nav a{
+    color: rgb(117, 141, 193);
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgb(154, 193, 221);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.name{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(47, 88, 176); 
+    height: 350px;
+}
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 0px;
+    color: aliceblue;
+}
+h4{
+    margin-top: 0%;
+    color: rgb(147, 158, 180);
+}
+h2{
+    font-size: xx-large;
+}
+h2:hover{
+    text-decoration: underline;
+    color: #171717;
+}
+
+button{
+    background-color: rgb(47, 88, 176);
+    height: 45px;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    border: 2px solid white;
+}
+
+#about{
+   width: 70%;
+   display: flex;
+   padding: 80px;
+   margin-left: 30px;
+   justify-content: space-evenly;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    padding: 0px 40px 0px 60px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+#about p{
+    font-size: large;
+    color: #1f1f1f;
+}
+h2{
+    text-align: center;
+}
+
+.edu1{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#education span{
+    float: right;
+}
+
+/** Project **/
+
+.proj{
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#skills{
+    padding: 40px 200px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style-type: none;
+    background-color: grey;
+    padding: 15px;
+    margin: 20px;
+    cursor: default;
+}
+
+footer{
+    text-align: center;
+    color: grey;
+    background-color: rgb(28, 28, 28);
+    padding: 50px;
+}
+footer span{
+    margin-bottom: 10px;
+}
+
+.Go-up i{
+    border: 5px solid grey;
+    padding: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: grey;
+    margin-top: 20px;
+}
+
+a i{
+    color: grey;
+    margin: 20px;
+    margin-top: 0;
+    font-size: 40px;
+}
